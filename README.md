@@ -12,8 +12,7 @@ enter "regression" or "smoke" or "regression or smoke" in the text box
 Click on "Run workflow" button
 ```
 
-## Getting Started
-To execute testcases run from command line: 
+## To execute testcases run from command line: 
 ```sh
 pytest -m "regression or smoke" - To run regression or smoke testcases
 pytest -m "regression" - To run only smoke testcases
