@@ -1,0 +1,2 @@
+2023-05-03 08:17:11 INFO     values passed 1987-07-26 hour 
+2023-05-03 08:17:12 DEBUG    b'{"message": "2016 hours left"}'
