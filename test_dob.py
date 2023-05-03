@@ -121,6 +121,7 @@ class TestNextBirthday:
         assert '0 hours left' in str(res_json['message'])
     
     @pytest.mark.regression
+    @pytest.mark.smoke
     def test_next_birthday_pass_current_day_unit_week(self):
         """
         Steps.
@@ -134,6 +135,7 @@ class TestNextBirthday:
         assert '0 weeks left' in str(res_json['message'])
     
     @pytest.mark.regression
+    @pytest.mark.smoke
     def test_next_birthday_pass_current_day_unit_month(self):
         """
         Steps.
